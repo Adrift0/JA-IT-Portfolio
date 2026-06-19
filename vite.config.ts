@@ -63,6 +63,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 // vitePluginManusDebugCollector() disabled for local development
 
 export default defineConfig({
+  base: "/JA-IT-Portfolio/",
   plugins,
   resolve: {
     alias: {
